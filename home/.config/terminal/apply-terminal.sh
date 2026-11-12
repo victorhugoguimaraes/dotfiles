@@ -26,5 +26,7 @@ set_value('background-color',colors['Background'])
 set_value('palette',repr([colors[f'Color{i}'] for i in range(16)]))
 set_value('use-system-font','false')
 set_value('font','Adwaita Mono Medium 11' if font=='Adwaita Mono' else 'Monospace Medium 11')
+subprocess.run(['gsettings','set','org.gnome.Terminal.Legacy.Keybindings','copy','<Primary>c'],check=True)
+subprocess.run(['gsettings','set','org.gnome.Terminal.Legacy.Keybindings','paste','<Primary>v'],check=True)
 print('Tema de alto contraste aplicado ao perfil padrão do GNOME Terminal.')
 PY

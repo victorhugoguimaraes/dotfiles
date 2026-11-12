@@ -22,3 +22,5 @@ gsettings set org.gnome.Ptyxis audible-bell false
 gsettings set "$profile_schema" palette one-dark-victor
 gsettings set "$profile_schema" opacity 1.0
 gsettings set "$profile_schema" cell-height-scale 1.08
+gsettings set org.gnome.Ptyxis.Shortcuts copy-clipboard '<Control>c'
+gsettings set org.gnome.Ptyxis.Shortcuts paste-clipboard '<Control>v'

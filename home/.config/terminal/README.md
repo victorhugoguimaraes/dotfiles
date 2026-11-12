@@ -34,4 +34,16 @@ O repositório local está em `~/dotfiles`.
 Tab completa caminhos e percorre candidatos; Shift+Tab percorre no sentido
 contrário. `source ~/.bashrc` aplica o prompt e o completamento na sessão atual.
 
+## Copiar, colar e interromper
+
+- Ctrl+C: copiar o texto selecionado.
+- Ctrl+V: colar.
+- Ctrl+G: interromper um comando em execução, enviando SIGINT.
+
+Abra uma nova aba ou execute `source ~/.bashrc` para ativar a tecla de
+interrupção. O módulo `.bashrc.d/15-terminal-shortcuts.sh` altera `stty intr`
+somente em shells interativos com terminal. Aplicativos em modo raw, como
+Neovim e Codex, continuam tendo seus próprios atalhos internos.
+Para voltar temporariamente à interrupção tradicional, use `stty intr '^C'`.
+
 Referência do prompt: <https://starship.rs/config/>.

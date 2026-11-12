@@ -2,6 +2,7 @@
 .bash_profile
 .inputrc
 .bashrc.d/10-completion.sh
+.bashrc.d/15-terminal-shortcuts.sh
 .bashrc.d/20-development.sh
 .bashrc.d/90-appearance.sh
 .config/starship.toml

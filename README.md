@@ -7,6 +7,11 @@ Inclui a configuração de alto contraste do terminal.
 No Bash, **Tab** completa caminhos e percorre as sugestões; **Shift+Tab** volta.
 Para aplicar mudanças na sessão atual, execute `source ~/.bashrc`.
 
+O terminal usa **Ctrl+C para copiar**, **Ctrl+V para colar** e **Ctrl+G para
+interromper comandos**. O módulo interativo do Bash configura `stty intr ^G`;
+os atalhos de copiar/colar são aplicados com `--terminal` no Ptyxis ou GNOME
+Terminal. Neovim e outros aplicativos em modo raw mantêm seus atalhos internos.
+
 ## Instalação por computador
 
 O padrão é uma simulação; não altera arquivos nem instala pacotes:
