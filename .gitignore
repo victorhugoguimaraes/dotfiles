@@ -1,0 +1,18 @@
+# Apenas arquivos de configuração selecionados entram neste repositório.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+auth.json
+credentials*
+*history*
+*.sqlite*
+*.db
+*.log
+*.bak
+*~
+local/
+backups/
+node_modules/
+.DS_Store

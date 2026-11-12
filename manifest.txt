@@ -1,0 +1,10 @@
+.bashrc
+.bash_profile
+.inputrc
+.bashrc.d/10-completion.sh
+.bashrc.d/20-development.sh
+.bashrc.d/90-appearance.sh
+.config/starship.toml
+.config/terminal
+.config/nvim
+.local/share/org.gnome.Ptyxis/palettes/one-dark-victor.palette
