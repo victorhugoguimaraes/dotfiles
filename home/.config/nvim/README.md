@@ -3,9 +3,12 @@
 Minha configuração do Neovim para programar, escrever em LaTeX e fazer anotações.
 Uso LazyVim com tema One Dark e o Codex em um terminal lateral.
 
-Tem suporte a C, C++, Rust, Python, TypeScript e Aiken. O LaTeX recompila ao
-salvar e abre o PDF no Evince. O Markdown tem visualização no editor e preview
-no navegador.
+Tem suporte a C, C++, Rust, Python, TypeScript e Aiken. O LaTeX salva após
+1,5 segundo sem digitar, recompila e abre o PDF no Evince. O Markdown tem
+visualização no editor e preview no navegador.
+
+Para pausar ou reativar o salvamento automático, use `:LatexAutoSaveToggle`.
+Arquivos novos precisam ser salvos uma vez com `:w`.
 
 ## Atalhos
 
