@@ -8,4 +8,5 @@
 .config/starship.toml
 .config/terminal
 .config/nvim
+.codex/skills/readme-direto
 .local/share/org.gnome.Ptyxis/palettes/one-dark-victor.palette
